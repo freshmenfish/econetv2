@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/econetv2/static/css/main.fd3abbcf.css",
-    "main.js": "/econetv2/static/js/main.fee34c26.js",
-    "static/media/tree.png": "/econetv2/static/media/tree.4dd95a3c589b42986902.png",
-    "static/media/econet_icon.png": "/econetv2/static/media/econet_icon.94f46c145dc150cba64b.png",
-    "index.html": "/econetv2/index.html",
-    "main.fd3abbcf.css.map": "/econetv2/static/css/main.fd3abbcf.css.map",
-    "main.fee34c26.js.map": "/econetv2/static/js/main.fee34c26.js.map"
+    "main.css": "https://freshmenfish.github.io/econetv2/static/css/main.fd3abbcf.css",
+    "main.js": "https://freshmenfish.github.io/econetv2/static/js/main.a2d3ecb9.js",
+    "static/media/tree.png": "https://freshmenfish.github.io/econetv2/static/media/tree.4dd95a3c589b42986902.png",
+    "static/media/econet_icon.png": "https://freshmenfish.github.io/econetv2/static/media/econet_icon.94f46c145dc150cba64b.png",
+    "index.html": "https://freshmenfish.github.io/econetv2/index.html",
+    "main.fd3abbcf.css.map": "https://freshmenfish.github.io/econetv2/static/css/main.fd3abbcf.css.map",
+    "main.a2d3ecb9.js.map": "https://freshmenfish.github.io/econetv2/static/js/main.a2d3ecb9.js.map"
   },
   "entrypoints": [
     "static/css/main.fd3abbcf.css",
-    "static/js/main.fee34c26.js"
+    "static/js/main.a2d3ecb9.js"
   ]
 }
