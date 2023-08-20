@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://freshmenfish.github.io/econetv2/static/css/main.fd3abbcf.css",
-    "main.js": "https://freshmenfish.github.io/econetv2/static/js/main.b48324aa.js",
+    "main.js": "https://freshmenfish.github.io/econetv2/static/js/main.9ad92654.js",
     "static/media/tree.png": "https://freshmenfish.github.io/econetv2/static/media/tree.4dd95a3c589b42986902.png",
     "static/media/econet_icon.png": "https://freshmenfish.github.io/econetv2/static/media/econet_icon.94f46c145dc150cba64b.png",
     "index.html": "https://freshmenfish.github.io/econetv2/index.html",
     "main.fd3abbcf.css.map": "https://freshmenfish.github.io/econetv2/static/css/main.fd3abbcf.css.map",
-    "main.b48324aa.js.map": "https://freshmenfish.github.io/econetv2/static/js/main.b48324aa.js.map"
+    "main.9ad92654.js.map": "https://freshmenfish.github.io/econetv2/static/js/main.9ad92654.js.map"
   },
   "entrypoints": [
     "static/css/main.fd3abbcf.css",
-    "static/js/main.b48324aa.js"
+    "static/js/main.9ad92654.js"
   ]
 }
