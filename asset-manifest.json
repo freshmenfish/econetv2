@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/econetv2/static/css/main.1fc77988.css",
-    "main.js": "/econetv2/static/js/main.5356165d.js",
+    "main.js": "/econetv2/static/js/main.a1cd5537.js",
     "static/media/econet_icon.png": "/econetv2/static/media/econet_icon.94f46c145dc150cba64b.png",
     "index.html": "/econetv2/index.html",
     "main.1fc77988.css.map": "/econetv2/static/css/main.1fc77988.css.map",
-    "main.5356165d.js.map": "/econetv2/static/js/main.5356165d.js.map"
+    "main.a1cd5537.js.map": "/econetv2/static/js/main.a1cd5537.js.map"
   },
   "entrypoints": [
     "static/css/main.1fc77988.css",
-    "static/js/main.5356165d.js"
+    "static/js/main.a1cd5537.js"
   ]
 }
