@@ -18,10 +18,10 @@ function App() {
              padding: 0px;
          }`
       }</style>
-      
+
       <Navbar/>
         <Routes>
-          <Route path="" element={ <Volunteer/> } />
+          <Route path="" element={ <About/> } />
           <Route path="volunteer" element={ <Volunteer/> } />
           <Route path="organizations" element={ <Organizations/> } />
           <Route path="support" element={ <Support/> } />
