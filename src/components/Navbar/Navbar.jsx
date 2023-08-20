@@ -9,7 +9,7 @@ const Navbar = () => {
     <section id="navbar">
         <div className="logo">
             <img className="econet_icon" src={ econet_icon }></img>
-            <Link to="/home" className="title">EcoNet</Link>
+            <Link to="" className="title">EcoNet</Link>
         </div>
         <div className='buttons'>
           <Link to="volunteer" className="navigation_button">Volunteer</Link>
