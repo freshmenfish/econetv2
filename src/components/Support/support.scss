@@ -1,0 +1,34 @@
+/* Styles for support.js component */
+#support {
+    background-color: #dbf6bfff;
+    height: calc(93vh - 6rem); /* 6rem is the height of the navbar, 7vh accounts for the footer */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for FAQ tiles */
+.tile {
+    background-color: #6aa84fff;
+    border-radius: 5px;
+    height: 35rem;
+    width: 25rem;
+    margin: 4rem;
+    padding: 1rem;
+
+    text-align: center;
+    font: 1rem 'Roboto', sans-serif;
+    color: white;
+    
+}
+
+/* Style for FAQ divider */
+.divider {
+    background-color: #6aa84fff;
+    height: 45rem;
+    width: 1rem;
+    border-radius: 1rem;
+
+}

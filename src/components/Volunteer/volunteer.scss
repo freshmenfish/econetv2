@@ -1,0 +1,92 @@
+/* Styles for the Volunteer component */
+#volunteer {
+    background-color: #dbf6bfff;
+    height: auto;
+    min-height: calc(93vh - 6rem); /* 6rem is the height of the navbar, 7vh accounts for the footer */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_bar {
+    min-width: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 6rem;
+    background-color: white;
+    border-radius: 1rem;
+    border: 0.4rem solid #6aa84fff;
+    padding: 0.1rem 1.5rem;
+
+    .filter_text {
+        font: 1.7rem "Roboto", sans-serif;
+        font-weight: 500;
+    }
+
+    .dropdown {
+        font: 1.5rem "Roboto", sans-serif;
+        font-weight: 500;
+        background-color: #6aa84fff;
+        margin: 0 1rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        cursor: pointer;
+    }
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.tiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 52rem;
+
+    .organization_tile {
+        display: '';
+        height: 18rem;
+        width: 14rem;
+        background-color: white;
+        margin: 1rem;
+        text-align: center;
+        color: black;
+
+        border: 0.4rem solid #6aa84fff;
+        border-radius: 1.5rem;
+        
+        font: 1rem "Roboto", sans-serif;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #6aa84fff;
+            color: white;
+        }
+        
+        .organization_name {
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .organization_email {
+            font-size: 0.85rem;
+            font-weight: 400;
+        }
+
+        .organization_description {
+            font-size: 0.8rem;
+            font-weight: 400;
+        }
+
+        .organization_tags {
+            font-size: 0.8rem;
+        }
+    }
+}

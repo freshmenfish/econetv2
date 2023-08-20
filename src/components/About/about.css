@@ -1,0 +1,48 @@
+/* Styles for the About component */
+#about {
+    background-color: #dbf6bfff;
+    height: calc(93vh - 6rem); /* 6rem is the height of the navbar, 7vh accounts for the footer */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: left;
+    color: #000000;
+
+    .text_one {
+        font: 4.5rem 'Roboto', sans-serif;
+        font-weight: 600;
+        margin-bottom: 3rem;
+        margin-left: 4rem;
+
+        .green_text {
+            color: #6aa84fff;
+        }
+    }
+
+    .text_two {
+        font: 2rem 'Roboto', sans-serif;
+        font-weight: 400;
+        margin-bottom: 2rem;
+        margin-left: 1.7rem;
+
+        .green_text {
+            color: #6aa84fff;
+        }
+    }
+}
+
+.tree {
+    height: 30rem;
+    margin-right: -3rem;
+}
+

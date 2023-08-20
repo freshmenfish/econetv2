@@ -1,0 +1,13 @@
+/* Styles for the footer component */
+#footer{
+    height: 7vh;
+    overflow: hidden;
+    background-color: #6aa84fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font: 1.2rem 'Roboto', sans-serif;
+    color: white;
+}

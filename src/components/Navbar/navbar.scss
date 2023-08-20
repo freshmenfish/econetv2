@@ -1,0 +1,64 @@
+/* Creates a navbar section at the top of the web page */
+#navbar {
+    height: 6rem;
+    overflow: hidden;
+    background-color: #8bda7fff;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    position: sticky;
+
+    font: 0.8rem 'Roboto', sans-serif;
+}
+
+/* Justifies positioning for logo and links to home page */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 2rem;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    .econet_icon {
+        height: 3.5rem;
+    }
+
+    .title {
+        padding: 0 1rem;
+
+        font-weight: 400;
+        font-size: 3rem;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+/* Justifies positioning for navigation buttons */
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 2rem;
+
+    .navigation_button {
+        margin-left: 1.5rem;
+        padding: 0.3rem 0.5rem;
+
+        font-weight: 400;
+        font-size: 1.2rem;
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            cursor: pointer;
+            border-bottom: 3px solid white;
+        }
+    }
+}

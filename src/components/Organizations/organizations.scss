@@ -1,0 +1,62 @@
+/* Styles for the Organizations component */
+#organizations {
+    background-color: #dbf6bfff;
+    height: calc(93vh - 6rem); /* 6rem is the height of the navbar, 7vh accounts for the footer */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for the registration form */
+.form_tile {
+    height: 40rem;
+    width: 40rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #6aa84fff;
+    border-radius: 2rem;
+
+    .form_title {
+        font: 3rem 'Roboto', sans-serif;
+        font-weight: 600;
+        color: white;
+        margin-bottom: 2rem;
+    }
+
+    .organization_form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .text_field {
+            margin-bottom: 2rem;
+
+            height: 3rem;
+            width: 30rem;
+            text-align: center;
+            font: 1rem 'Roboto', sans-serif;
+            background-color: #dbf6bfff;
+            color: #6aa84fff;
+            border: none;
+        }
+
+        .submit_button {
+            margin-bottom: 2.5rem;
+
+            height: 2.5rem;
+            width: 8rem;
+            font: 1.5rem 'Roboto', sans-serif;
+            font-weight: 500;
+            color: #6aa84fff;
+            border: 0.3rem solid black;
+            border-radius: 1rem;
+        }
+    }
+}
+
